@@ -1,4 +1,4 @@
-module github.com/m3db/prometheus_remote_client_golang
+module github.com/dgzlopes/prometheus_remote_client_golang
 
 go 1.14
 
@@ -7,6 +7,7 @@ require (
 	github.com/golang/protobuf v1.4.2
 	github.com/golang/snappy v0.0.1
 	github.com/grpc-ecosystem/grpc-gateway v1.14.5 // indirect
+	github.com/m3db/prometheus_remote_client_golang v0.4.4
 	github.com/prometheus/prometheus v2.5.0+incompatible
 	github.com/stretchr/testify v1.5.1
 	golang.org/x/net v0.0.0-20200520182314-0ba52f642ac2 // indirect
